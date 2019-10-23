@@ -790,34 +790,3 @@ public class tor_com extends AppCompatActivity implements OnClickListener {
         }
     }
 }
-/*// Листнер нажатий, пока не нужно
-        lvTour1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
-                Log.d(LOG_TAG, "itemClick: position = " + position + ", id = "
-                        + id);
-                //idv = "R.id." + id;
-                //intidv = Integer.parseInt(idv);
-                //test123 = R.id.;
-                //intidv = test123 + (int)id;
-                //Log.d(LOG_TAG, idv);
-            }
-        });*/
-
-// Сменя цвет выбранному победителем, не понятно как реализовать
-//tvColor = (TextView) findViewById((int)acmi.id);
-//Log.d(LOG_TAG, Long.toString(acmi.id));
-//tvColor.setBackgroundColor(R.color.colorPrimary);
-
-/*// Проверка
-                    if (ct1 != null) {
-                        if (ct1.moveToFirst()) {
-                            do {
-                                String testlog = ct1.getString(ct1.getColumnIndex("PName"));
-                                Log.d(LOG_TAG, testlog);
-                            } while (ct1.moveToNext());
-                        }
-                    }
-                    if (ct1 != null) {
-                        Log.d(LOG_TAG, "жопа курсора");
-                    }*/
